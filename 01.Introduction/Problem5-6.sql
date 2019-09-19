@@ -1,0 +1,7 @@
+DELETE FROM Minions
+
+SELECT * FROM Minions
+
+DROP TABLE Minions
+
+DROP TABLE Towns
