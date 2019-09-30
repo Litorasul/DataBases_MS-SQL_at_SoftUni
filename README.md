@@ -8,3 +8,5 @@ Topics:
 
 	01. Introduction to MSSQL
 	02. Basic CRUD
+	03. Built-In Functions
+	04. Data Aggregation
