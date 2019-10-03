@@ -131,3 +131,36 @@ OR DepartmentID = 5
 OR DepartmentID = 7
 GROUP BY DepartmentID
 
+--Problem 15--
+SELECT
+	*
+INTO NewEmployeesTable
+FROM Employees
+WHERE Salary > 30000
+
+DELETE FROM NewEmployeesTable
+WHERE ManagerID = 42
+
+UPDATE NewEmployeesTable
+SET Salary += 5000
+WHERE DepartmentID = 1
+
+SELECT
+	DepartmentID,
+	AVG(Salary) AS [AverageSalary]
+FROM NewEmployeesTable
+GROUP BY DepartmentID
+
+--Problem 16--
+SELECT
+	DepartmentID,
+	MAX(Salary) AS [MaxSalary]
+FROM Employees
+GROUP BY DepartmentID
+HAVING MAX(Salary) NOT BETWEEN 30000 AND 70000
+
+--Problem 17--
+SELECT
+	COUNT(*) AS [Count]
+FROM Employees
+WHERE ManagerID IS NULL
