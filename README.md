@@ -10,3 +10,4 @@ Topics:
 	02. Basic CRUD
 	03. Built-In Functions
 	04. Data Aggregation
+	05. Table Relations
