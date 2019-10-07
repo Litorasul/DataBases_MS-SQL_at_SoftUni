@@ -11,3 +11,4 @@ Topics:
 	03. Built-In Functions
 	04. Data Aggregation
 	05. Table Relations
+	06. Subqueries and Joins
