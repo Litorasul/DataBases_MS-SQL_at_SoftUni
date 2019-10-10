@@ -12,3 +12,4 @@ Topics:
 	04. Data Aggregation
 	05. Table Relations
 	06. Subqueries and Joins
+	07. Database Programmability
